@@ -38,7 +38,7 @@ App runs at `http://localhost:3000`.
 The Gemini API key is set directly in `src/utils/gemini.js`. To use your own key, replace the value on line 1:
 
 ```js
-const GEMINI_API_KEY = 'your-key-here';
+const GEMINI_API_KEY = 'AIzaSyDQG8J2HmOxoq-4-7vWaW8ZPi8-2Nwi_HY';
 ```
 
 ## License
