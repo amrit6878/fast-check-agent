@@ -1,5 +1,5 @@
 const GEMINI_API_KEY = 'AIzaSyDQG8J2HmOxoq-4-7vWaW8ZPi8-2Nwi_HY';
-const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`;
+const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`;
 
 async function callGemini(prompt, systemInstruction = '') {
   const body = {
